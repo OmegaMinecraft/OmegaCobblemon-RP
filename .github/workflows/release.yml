@@ -1,0 +1,98 @@
+name: Create OmegaCobblemon Resource Pack Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+    
+    - name: Create Resource Pack Archive
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'omegacobblemon-resource-pack.zip'
+        exclusions: |
+          *.git*
+          *.github*
+          *node_modules*
+          *.editorconfig
+          *.gitignore
+          *.md
+          README*
+          LICENSE*
+          .DS_Store
+          Thumbs.db
+    
+    - name: Verify archive and generate hashes
+      run: |
+        echo "Archive created successfully!"
+        ls -la omegacobblemon-resource-pack.zip
+        echo "Archive contents (first 25 entries):"
+        unzip -l omegacobblemon-resource-pack.zip | head -25
+        echo ""
+        echo "Generating hashes..."
+        echo "SHA256: $(sha256sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)"
+        echo "SHA1: $(sha1sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)"
+        echo "MD5: $(md5sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)"
+        echo "PACK_SHA256=$(sha256sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SHA1=$(sha1sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_MD5=$(md5sum omegacobblemon-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SIZE=$(stat -f%z omegacobblemon-resource-pack.zip 2>/dev/null || stat -c%s omegacobblemon-resource-pack.zip)" >> $GITHUB_ENV
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: release
+        name: "Latest OmegaCobblemon Resource Pack"
+        body: |
+          🎮 **OmegaCobblemon Resource Pack**
+          
+          The official resource pack for the OmegaMinecraft Cobblemon server.
+          
+          ## 🎮 Compatibility
+          - **Minecraft Version:** 1.21.1
+          - **Pack Format:** 48
+          
+          ## 📥 Installation & Usage
+          - **Manual Download:** Click `omegacobblemon-resource-pack.zip` below
+          - **Server Resource Pack URL:** `https://github.com/${{ github.repository }}/releases/download/release/omegacobblemon-resource-pack.zip`
+          - **SHA1:** `${{ env.PACK_SHA1 }}`
+          
+          ## 🔐 File Verification
+          **File Size:** ${{ env.PACK_SIZE }} bytes
+          **SHA256:** `${{ env.PACK_SHA256 }}`
+          **SHA1:** `${{ env.PACK_SHA1 }}`
+          **MD5:** `${{ env.PACK_MD5 }}`
+          
+          ## 📊 Build Information
+          **Generated:** ${{ github.event.head_commit.timestamp }}
+          **Workflow Run:** [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          **Commit:** [`${{ github.sha }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+          **Branch:** ${{ github.ref_name }}
+        files: |
+          omegacobblemon-resource-pack.zip
+        prerelease: false
+        make_latest: true
+        generate_release_notes: false
+        fail_on_unmatched_files: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
