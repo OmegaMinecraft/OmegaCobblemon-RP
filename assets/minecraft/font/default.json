@@ -697,42 +697,42 @@
 	     "type": "bitmap",
 	     "file": "omega:font/guis/menu.png",
 	     "height": 195,
-	     "ascent": 65,
+	     "ascent": 63,
 	     "chars": ["\u0500"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/warp.png",
 	     "height": 195,
-	     "ascent": 65,
+	     "ascent": 63,
 	     "chars": ["\u0502"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/crate.png",
 	     "height": 195, 
-	     "ascent": 64,
+	     "ascent": 63,
 	     "chars": ["\u0503"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/town_arena.png",
 	     "height": 195,
-	     "ascent": 65,
+	     "ascent": 63,
 	     "chars": ["\u0504"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/town.png",
 	     "height": 195,
-	     "ascent": 64,
+	     "ascent": 63,
 	     "chars": ["\u0505"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/shop.png",
 	     "height": 195,
-	     "ascent": 65,
+	     "ascent": 63,
 	     "chars": ["\u0508"]
 	},
 	{
