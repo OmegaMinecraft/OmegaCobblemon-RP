@@ -699,7 +699,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF84b"
+                "\u0400"
             ]
         },
         {
@@ -708,7 +708,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF84c"
+                "\u0401"
             ]
         },
         {
@@ -717,7 +717,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF84d"
+                "\u0402"
             ]
         },
         {
@@ -726,7 +726,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF84e"
+                "\u0403"
             ]
         },
         {
@@ -735,7 +735,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF84f"
+                "\u0404"
             ]
         },
         {
@@ -744,7 +744,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF850"
+                "\u0405"
             ]
         },
         {
@@ -753,7 +753,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF851"
+                "\u0406"
             ]
         },
         {
@@ -762,7 +762,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF852"
+                "\u0407"
             ]
         },
         {
@@ -771,7 +771,7 @@
             "ascent": 8,
             "height": 8,
             "chars": [
-                "\uF853"
+                "\u0408"
             ]
         },
 	{
@@ -806,7 +806,7 @@
 	     "type": "bitmap",
 	     "file": "omega:font/guis/town_menu.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0505"]
 	},
 	{
