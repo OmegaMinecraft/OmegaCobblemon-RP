@@ -693,6 +693,87 @@
                 "\uF84a"
             ]
         },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/blossomvale.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF84b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/duskfell.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF84c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/embervale.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF84d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/glacemoor.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF84e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/greenrock.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF84f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/scalehaven.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF850"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/stormcrest.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF851"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/veilmind.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF852"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "omega:font/icons/wavecrest.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uF853"
+            ]
+        },
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/menu.png",
@@ -723,7 +804,7 @@
 	},
 	{
 	     "type": "bitmap",
-	     "file": "omega:font/guis/town.png",
+	     "file": "omega:font/guis/town_menu.png",
 	     "height": 195,
 	     "ascent": 63,
 	     "chars": ["\u0505"]
