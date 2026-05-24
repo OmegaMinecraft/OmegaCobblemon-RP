@@ -822,6 +822,20 @@
 	     "height": 195,
 	     "ascent": 64,
 	     "chars": ["\u0509"]
+	},
+	{
+	     "type": "bitmap",
+	     "file": "omega:font/guis/pageant.png",
+	     "height": 195,
+	     "ascent": 64,
+	     "chars": ["\u050a"]
+	},
+	{
+	     "type": "bitmap",
+	     "file": "omega:font/guis/bingo.png",
+	     "height": 195,
+	     "ascent": 64,
+	     "chars": ["\u050b"]
 	}                                                                                   
     ]
 }
