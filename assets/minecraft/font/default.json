@@ -693,87 +693,6 @@
                 "\uF84a"
             ]
         },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/blossomvale.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0400"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/duskfell.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0401"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/embervale.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0402"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/glacemoor.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0403"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/greenrock.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0404"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/scalehaven.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0405"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/stormcrest.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0406"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/veilmind.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0407"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "omega:font/icons/wavecrest.png",
-            "ascent": 8,
-            "height": 8,
-            "chars": [
-                "\u0408"
-            ]
-        },
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/menu.png",
@@ -790,52 +709,31 @@
 	},
 	{
 	     "type": "bitmap",
-	     "file": "omega:font/guis/crate.png",
+	     "file": "omega:font/guis/warpsmall.png",
 	     "height": 195, 
 	     "ascent": 63,
 	     "chars": ["\u0503"]
 	},
 	{
 	     "type": "bitmap",
-	     "file": "omega:font/guis/town_arena.png",
+	     "file": "omega:font/guis/crate.png",
 	     "height": 195,
 	     "ascent": 63,
 	     "chars": ["\u0504"]
 	},
 	{
 	     "type": "bitmap",
-	     "file": "omega:font/guis/town_menu.png",
-	     "height": 195,
-	     "ascent": 64,
-	     "chars": ["\u0505"]
-	},
-	{
-	     "type": "bitmap",
 	     "file": "omega:font/guis/shop.png",
 	     "height": 195,
 	     "ascent": 63,
-	     "chars": ["\u0508"]
+	     "chars": ["\u0505"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/advent.png",
 	     "height": 195,
 	     "ascent": 64,
-	     "chars": ["\u0509"]
-	},
-	{
-	     "type": "bitmap",
-	     "file": "omega:font/guis/pageant.png",
-	     "height": 195,
-	     "ascent": 64,
-	     "chars": ["\u050a"]
-	},
-	{
-	     "type": "bitmap",
-	     "file": "omega:font/guis/bingo.png",
-	     "height": 195,
-	     "ascent": 64,
-	     "chars": ["\u050b"]
+	     "chars": ["\u0506"]
 	}                                                                                   
     ]
 }
