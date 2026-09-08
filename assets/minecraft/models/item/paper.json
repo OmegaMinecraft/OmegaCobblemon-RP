@@ -20,6 +20,9 @@
     { "predicate": { "custom_model_data": 13 }, "model": "omega:item/buttons/gavel1" },
     { "predicate": { "custom_model_data": 14 }, "model": "omega:item/buttons/desc" },
     { "predicate": { "custom_model_data": 15 }, "model": "omega:item/buttons/tick" },
-    { "predicate": { "custom_model_data": 16 }, "model": "omega:item/buttons/cross" }
+    { "predicate": { "custom_model_data": 16 }, "model": "omega:item/buttons/cross" },
+    { "predicate": { "custom_model_data": 17 }, "model": "omega:item/buttons/shiny" },
+    { "predicate": { "custom_model_data": 18 }, "model": "omega:item/buttons/legendary" },
+    { "predicate": { "custom_model_data": 19 }, "model": "omega:item/buttons/mythical" }
   ]
 }
