@@ -704,42 +704,42 @@
 	     "type": "bitmap",
 	     "file": "omega:font/guis/warp.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0502"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/warpsmall.png",
 	     "height": 195, 
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0503"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/crate.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0504"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/shop.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0505"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/advent.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0506"]
 	},
 	{
 	     "type": "bitmap",
 	     "file": "omega:font/guis/vault.png",
 	     "height": 195,
-	     "ascent": 63,
+	     "ascent": 64,
 	     "chars": ["\u0508"]
 	}                                                                                   
     ]
