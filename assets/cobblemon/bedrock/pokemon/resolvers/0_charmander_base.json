@@ -1,0 +1,64 @@
+{
+  "order": 0,
+  "species": "cobblemon:charmander",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame1.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame2.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame3.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame4.png"
+            ],
+            "loop": true
+          },
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:charmander.geo",
+      "poser": "cobblemon:charmander",
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame1.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame2.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame3.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame4.png"
+            ],
+            "loop": true
+          },
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_shiny.png"
+    },
+    {
+      "aspects": ["alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["halloween"],
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_halloween.png"
+    }
+  ]
+}
