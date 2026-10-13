@@ -1,0 +1,10 @@
+{
+  "order": 1,
+  "species": "cobblemon:gengar",
+  "variations": [
+    {
+      "aspects": ["halloween"],
+      "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_halloween.png"
+    }
+  ]
+}

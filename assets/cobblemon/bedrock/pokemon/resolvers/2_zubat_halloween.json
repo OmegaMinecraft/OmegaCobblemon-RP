@@ -1,0 +1,10 @@
+{
+  "order": 2,
+  "species": "cobblemon:zubat",
+  "variations": [
+    {
+      "aspects": ["halloween"],
+      "texture": "cobblemon:textures/pokemon/0041_zubat/zubat_halloween.png"
+    }
+  ]
+}

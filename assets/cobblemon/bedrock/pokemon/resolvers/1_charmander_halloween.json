@@ -1,0 +1,10 @@
+{
+  "order": 1,
+  "species": "cobblemon:charmander",
+  "variations": [
+    {
+      "aspects": ["halloween"],
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_halloween.png"
+    }
+  ]
+}
