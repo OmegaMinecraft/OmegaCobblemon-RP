@@ -741,6 +741,13 @@
 	     "height": 195,
 	     "ascent": 64,
 	     "chars": ["\u0508"]
-	}                                                                                   
+	},
+	{
+	     "type": "bitmap",
+	     "file": "omega:font/guis/homes.png",
+	     "height": 195,
+	     "ascent": 64,
+	     "chars": ["\u0510"]
+	}                                                                                  
     ]
 }
