@@ -748,6 +748,13 @@
 	     "height": 195,
 	     "ascent": 64,
 	     "chars": ["\u0510"]
+	},
+	{
+	     "type": "bitmap",
+	     "file": "omega:font/guis/claims.png",
+	     "height": 195,
+	     "ascent": 64,
+	     "chars": ["\u0511"]
 	}                                                                                  
     ]
 }
